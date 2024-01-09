@@ -1,5 +1,5 @@
 :root {
-    --bs-font-sans-serif: Roboto, sans-serif;
+    --bs-font-sans-serif: 'Noto Sans KR', sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-color: #858585;
     --bs-body-color-rgb: 133, 133, 133;
@@ -7,6 +7,10 @@
     --dark-color: #7a7a7a;
     --dark-b: #000000;
     --bs-body-font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 0px;
 }
 
 a {
@@ -170,16 +174,26 @@ h1, h2, h3, h4 {
 }
 
 .section-title{
+    font-weight: bold;
     color: var(--dark-b);
     font-size: 1.6rem;
 }
 
 .small-title{
+    float: left;
+    width: 85%;
     color: var(--dark-b);
     font-size: 1.2rem;
 }
 
-.timeline{
-    color: var(--light-color);
+.period-item{
+    float: left;
+    width: 15%;
+    color: var(--dark-color);
     font-size: 1.2rem;
+}
+
+.award-title{
+    color: var(--dark-b);
+    font-size: 1.1rem;
 }
