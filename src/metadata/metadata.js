@@ -1,13 +1,13 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'HyeonBeom Yi',
+  title: 'UX/UI Design based HCI Researcher',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Google Scholar': '<a href="https://scholar.google.com/citations?user=fV53uIUAAAAJ&hl=ko"><i class="fa fa-home fact-icon"></i>HyeonBeom Yi</a>',
+    'ORCID': `<a href="https://orcid.org/my-orcid?orcid=0000-0003-1108-0045">
+                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>0000-0003-1108-0045
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Instagram': `<a href="https://www.instagram.com/lucky_beomy/"><i class="fa-brands fa-twitter fact-icon"></i>lucky_beomy</a>`,
+    'Email': '<a href="mailto:ihb0523@gmail.com"><i class="fa fa-envelope fact-icon"></i>ihb0523@gmail.com</a>'
   },
   skills: [
     ['Comedy', 100],
@@ -25,29 +25,37 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Post-doctoral Researcher at Electronics and Telecommunications Research Institute (ETRI)',
+      period: '2023.09 - Current',
+      skills: ['UX/UI Oriented HCI Research'],
+      contents: ``
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Post-doctoral Researcher at Department of Industrial Design, KAIST',
+      period: '2023.03 - 2023.08',
+      skills: ['UX/UI Oriented HCI Research'],
+      contents: ``
+    },
+  ],
+  educations: [
+    {
+      title: 'Ph.D. in Human-Computer Interaction at Department of Industrial Design, KAIST',
+      period: '2018.02 - 2023.03',
+      skills: ['Interaction Design', 'UX/UI Oriented HCI Research'],
+      contents: ``
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
+      title: 'M.S. in Human-Computer Interaction at Department of Industrial Design, KAIST',
+      period: '2016.02 - 2018.02',
+      skills: ['Post-doctoral Researcher', 'UX/UI Oriented HCI Research'],
+      contents: ``
+    },
+    {
+      title: 'B.S. in Department of Industrial Design, KAIST',
+      period: '2012.02 - 2016.02',
+      skills: ['UX/UI Oriented HCI Research'],
+      contents: ``
+    },
   ],
   experience: [
     {

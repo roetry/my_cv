@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+                <img src="me_11.png" class="profile-image" alt="Personal photo">
             </div>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-
+    <!--
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h3 class="h2 screen mb-4">Skills</h3>
         <div class="row align-items-center">
@@ -65,17 +65,38 @@
             {{/each}}
         </div>
     </div>
+    -->
+   
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
+        I am a Human-Computer Interaction (HCI) researcher with a focus on User Experience and User Interface (UX/UI) design. I earned my Ph.D. and M.S. degrees from the Department of Industrial Design at KAIST under the guidance of Prof. Woohun Lee. My research primarily revolves around the design of XR (Extended Reality) experiences in targeted contexts. I bring expertise in designing VR game controllers, curating exhibitions using XR technologies, and creating digital augmentations for children's play. These experiences have honed my skills in crafting innovative intersections between the virtual and physical realms. In addition, my recent endeavors include research on leveraging AI technologies to enhance accessibility. I am actively involved in exploring ways to improve UX/UI through the application of cutting-edge AI techniques.
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Professional Experience</h2>
+        <h2 class="section-title">Professional Experience</h2>
         {{#each positions}}
+        <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+            <div class="col-md-2 pt-1">
+                {{ period }}
+            </div>
+            <div class="col-md-10">
+                <h3 class="small-title">{{ title }}</h3>
+
+                <div>{{{markdown contents }}}</div>
+
+                <p>
+                    {{#each skills }}
+                    <span class="badge text-body border border-1">{{ this }}</span>
+                    {{/each}}
+                </p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="section-title">Education</h2>
+        {{#each educations}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-2 pt-1">
                 {{ period }}
@@ -95,12 +116,7 @@
         {{/each}}
     </div>
 
-    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Education</h2>
-        <div>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</div>
-    </div>
-
-    <h2 class="mb-4">Additional Experience</h2>
+    <h2 class="section-title">Additional Experience</h2>
 
     {{#each experience}}
     <div class="mb-4">
