@@ -60,24 +60,24 @@ module.exports = {
   awards: [
     {
       header: 'iF Design Award 2023',
-      skills: ['WonderScope: XR Device for Museum Visiting'],
+      skills: [''],
       
     },
     {
       header: 'KAIST College of Engineering Ph.D. Dissertation Award 2023',
-      skills: ['Designing Near-surface AR Interaction for Enhancing Museum Visitor Experience'],
+      skills: [''],
     },
     {
       header: 'ACM SIGGRAPH 2022 Honorable Mention Award',
-      skills: ['Emerging Technology', 'WonderScope: Practical Near-surface AR Device for Museum Exhibits'],
+      skills: [''],
     },
     {
       header: 'ACM DIS 2020 Honorable Mention Award',
-      skills: ['SoundWear: Effect of Non-speech Sound Augmentation on the Outdoor Play Experience of Children'],
+      skills: [''],
     },
     {
       header: 'ACM SIGCHI 2018 Honorable Mention Award',
-      skills: ['HapCube: A Wearable Tactile Device to Provide Tangential and Normal Pseudo-Force Feedback on a Fingertip'],
+      skills: [''],
     },
   ],
   projects: [
